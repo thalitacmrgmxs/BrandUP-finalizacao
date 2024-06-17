@@ -1,0 +1,249 @@
+body, html{
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.pag-incial{
+    width: 100%;
+    height: 20rem;
+    background-color: #03012E;
+}
+
+
+.poppins-regular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+  
+html{
+    background-color: #03012E;
+}
+
+.azul{
+    width: 15rem;
+    height: 5rem;
+    padding-left: 7rem;
+    padding-top: 2rem;
+    
+    
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    left: 0.25rem;
+    right: 0.50rem;
+    top: 1rem;
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: right;
+    justify-content: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+ul{
+    top: 1rem;
+    padding-left: 0%;
+
+}
+
+.centro{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 5vw;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    position: relative;
+}
+.menu-normal{
+    top: 30px;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.0;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: none;
+}
+nav.menu{
+    top: 5px;
+    width: 200%;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(88, 0, 156, 1) 15%,rgba(0, 0, 0, 1) 60%); 
+
+}
+.bemvindo{
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    color: aliceblue;
+    text-align: center;
+    margin: 0.5;
+    padding-top: 5rem ;
+}
+h2{
+    margin: 0.5rem;
+    font-weight: 300;
+}
+
+.agencia{
+    font-family: "Poppins";
+    color: aliceblue;
+    text-align: center;
+    padding-top: 0rem;
+    font-size: 1.5rem;
+    margin: 0%;
+}
+h1{
+    margin: 0%;
+}
+.fogueteefeito{
+    width: 40%;
+    height: 20%;
+    padding-top: 0.5rem;
+    
+}
+.imgmenu{
+    background-color: #03012E;
+    position: relative;
+}
+.botaoMenu{
+    display: block;
+    background-color: #03012E;
+    border: none;
+}
+.grid{
+    width: 85%;
+    height: 35rem;
+    background-color:#03012E;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 3rem;
+    gap: 0rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.container{
+    background-color: #00AAFA;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    width: 90%;
+    height: 70%;
+    border-radius: 1rem;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins";
+    color: aliceblue;
+}
+.img-container{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+    
+@media screen and (max-width: 950px) {
+    .menu{
+        display: none;
+    }
+    .menu-normal{
+        color: #03012E;
+        position: relative;
+    }
+    .image-header{
+        margin-left: 10px;
+    }
+
+    .mobile-menu-icon{
+        width: 100%;
+    }
+
+    .botaoMenu{
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 10rem;
+    }
+
+    .menu{
+        display: flex;
+        padding-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        width: 10rem;
+        right: 30px;
+        top: 75px;
+        padding: 20px;
+        border-radius: 10px;
+        transition: 0.5s;
+        
+    }
+
+    .opcoes-mobile{
+        font-size: 16px;
+        color: white;
+    }
+
+
+    .tema{
+        display: none;
+    }
+    .fogueteefeito{
+        width: 30%;
+        height: 30%;
+    }
+    .menu-responsivo{
+        top: 30px;
+        color: white;
+        font-size: 1rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.0;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: none;
+        margin-left: 50rem;
+        
+    }
+    .fogueteefeito{
+        width: 10%;
+        height: 10%;
+        padding-top: 0.5rem;
+    }
+    .azul{
+        width: 15rem;
+        height: 5rem;
+        padding-left: 7rem;
+        padding-top: 2rem;
+        
+        
+    }
+}
